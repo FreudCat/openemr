@@ -133,6 +133,7 @@ function auto_populate_employer_address<?php echo $i ?>(){
  var f = document.demographics_form;
  if (f.form_i<?php echo $i?>subscriber_relationship.options[f.form_i<?php echo $i?>subscriber_relationship.selectedIndex].value == "self") {
   f.i<?php echo $i?>subscriber_fname.value=f.form_fname.value;
+  f.i<?php echo $i?>subscriber_fname.value=f.form_neuter.value;
   f.i<?php echo $i?>subscriber_mname.value=f.form_mname.value;
   f.i<?php echo $i?>subscriber_lname.value=f.form_lname.value;
   f.i<?php echo $i?>subscriber_street.value=f.form_street.value;

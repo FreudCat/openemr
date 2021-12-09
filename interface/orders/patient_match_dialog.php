@@ -25,6 +25,7 @@ $form_ss = preg_replace('/[^0-9]/', '', $args['ss']);
 $form_fname = $args['fname'];
 $form_lname = $args['lname'];
 $form_DOB = $args['DOB'];
+$form_neuter = $args['neuter'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -88,6 +89,12 @@ if ($form_key) {
     if ($form_DOB !== '') {
         $clsql .= " + ((DOB IS NOT NULL AND DOB = ?) * 5)";
         $clarr[] = $form_DOB;
+    }
+
+// neuter status.
+    if ($form_neuter !== '') {
+        $clsql .= " + ((neuter IS NOT NULL AND neuter = ?) * 5)";
+        $clarr[] = $form_neuter;
     }
 
 // SSN match is worth a lot and we allow for matching on last 4 digits.

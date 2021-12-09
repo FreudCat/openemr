@@ -36,6 +36,7 @@ $form_title     = $_POST['title'    ] ? trim($_POST['title'    ]) : '';
 $form_fname     = $_POST['fname'    ] ? trim($_POST['fname'    ]) : '';
 $form_mname     = $_POST['mname'    ] ? trim($_POST['mname'    ]) : '';
 $form_lname     = $_POST['lname'    ] ? trim($_POST['lname'    ]) : '';
+$form_neuter     = $_POST['neuter'    ] ? trim($_POST['neuter'    ]) : '';
 $form_refsource = $_POST['refsource'] ? trim($_POST['refsource']) : '';
 $form_sex       = $_POST['sex'      ] ? trim($_POST['sex'      ]) : '';
 $form_refsource = $_POST['refsource'] ? trim($_POST['refsource']) : '';

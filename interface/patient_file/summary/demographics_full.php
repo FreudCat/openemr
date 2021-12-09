@@ -263,6 +263,7 @@ function auto_populate_employer_address<?php echo attr($i); ?>(){
   f.i<?php echo attr($i); ?>subscriber_fname.value=f.form_fname.value;
   f.i<?php echo attr($i); ?>subscriber_mname.value=f.form_mname.value;
   f.i<?php echo attr($i); ?>subscriber_lname.value=f.form_lname.value;
+  f.i<?php echo attr($i); ?>subscriber_neuter.value=f.form_neuter.value;
   f.i<?php echo attr($i); ?>subscriber_street.value=f.form_street.value;
   f.i<?php echo attr($i); ?>subscriber_city.value=f.form_city.value;
   f.form_i<?php echo attr($i); ?>subscriber_state.value=f.form_state.value;

@@ -84,6 +84,7 @@ if ($_POST['form_create']) {
         $_POST["db_id"],
         $_POST["title"],
         $form_fname,
+        $form_neuter,
         $form_lname,
         $form_mname,
         $form_sex, // sex
